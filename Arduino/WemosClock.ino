@@ -61,18 +61,11 @@ void onSTAConnected (WiFiEventStationModeConnected ipInfo) {
 
 // Start NTP only after IP network is connected
 void onSTAGotIP (WiFiEventStationModeGotIP ipInfo) {
-    //Serial.printf ("Got IP: %s\r\n", ipInfo.ip.toString ().c_str ());
-    //Serial.printf ("Connected: %s\r\n", WiFi.status () == WL_CONNECTED ? "yes" : "no");
-    //digitalWrite (ONBOARDLED, LOW); // Turn on LED
     wifiFirstConnected = true;
 }
 
 // Manage network disconnection
 void onSTADisconnected (WiFiEventStationModeDisconnected event_info) {
-    //Serial.printf ("Disconnected from SSID: %s\n", event_info.ssid.c_str ());
-    //Serial.printf ("Reason: %d\n", event_info.reason);
-    //digitalWrite (ONBOARDLED, HIGH); // Turn off LED
-    //NTP.stop(); // NTP sync can be disabled to avoid sync errors
     WiFi.reconnect ();
 }
 
@@ -111,23 +104,13 @@ void setup () {
   
     static WiFiEventHandler e1, e2, e3;
 
-    //Serial.begin (115200);
-    //Serial.println ();
     WiFi.mode (WIFI_STA);
     WiFi.begin (YOUR_WIFI_SSID, YOUR_WIFI_PASSWD);
-
-    //pinMode (ONBOARDLED, OUTPUT); // Onboard LED
-    //digitalWrite (ONBOARDLED, HIGH); // Switch off LED
 
     NTP.onNTPSyncEvent ([](NTPSyncEvent_t event) {
         ntpEvent = event;
         syncEventTriggered = true;
     });
-
-    // Deprecated
-    /*WiFi.onEvent([](WiFiEvent_t e) {
-        Serial.printf("Event wifi -----> %d\n", e);
-    });*/
 
     e1 = WiFi.onStationModeGotIP (onSTAGotIP);// As soon WiFi is connected, start NTP Client
     e2 = WiFi.onStationModeDisconnected (onSTADisconnected);
@@ -151,18 +134,12 @@ void loop () {
      
     showNumber(value);
 
-
     if (wifiFirstConnected) {
         wifiFirstConnected = false;
         NTP.setInterval (63);
         NTP.setNTPTimeout (NTP_TIMEOUT);
         NTP.begin (ntpServer, timeZone, false, minutesTimeZone);
     }
-
-//    if (syncEventTriggered) {
-//        processSyncEvent (ntpEvent);
-//        syncEventTriggered = false;
-//    }
 
 }
 
