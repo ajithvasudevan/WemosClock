@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/ajith/WemosClock/WemosClock.sch</source>
+    <date>Sat Nov  9 13:40:55 2019</date>
+    <tool>Eeschema 5.1.4-e60b266~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>WemosClock.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>2.3inch7SegmentDisplay</value>
+      <footprint>WemosClock:2.3_in_7_seg_display</footprint>
+      <libsource lib="WemosClock" part="2.3inch7SegmentDisplay" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB898F2</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>2.3inch7SegmentDisplay</value>
+      <footprint>WemosClock:2.3_in_7_seg_display</footprint>
+      <libsource lib="WemosClock" part="2.3inch7SegmentDisplay" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB89EB6</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>2.3inch7SegmentDisplay</value>
+      <footprint>WemosClock:2.3_in_7_seg_display</footprint>
+      <libsource lib="WemosClock" part="2.3inch7SegmentDisplay" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB8A65B</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>2907A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_CBE" description="PNP transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB8F8DC</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9015D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9A9EA</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9BC3F</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB9C050</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>2907A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_CBE" description="PNP transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB2B3D</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB2B43</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB2B49</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB2B4F</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB2B55</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>2907A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_CBE" description="PNP transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB5944</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB594A</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB5950</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB5956</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB595C</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>2907A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PNP_CBE" description="PNP transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB70E1</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB70E7</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB70ED</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB70F3</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBB70F9</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBBAED</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBCD953</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBCD959</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBCD95F</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBD53FD</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBD5403</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBD5409</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBE429D</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBE42A3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBE42A9</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBBAE1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DBBBAF3</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD69BF1</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD69BF7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD69BFD</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD6C058</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD6C05E</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD6C064</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD6E676</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2222A</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD6E67C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD6E682</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD855EB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD872BE</tstamp>
+    </comp>
+    <comp ref="U0">
+      <value>WeMos D1 mini</value>
+      <footprint>WemosClock:WEMOS_D1_mini_3.0.0</footprint>
+      <datasheet>https://wiki.wemos.cc/products:d1:d1_mini#documentation</datasheet>
+      <libsource lib="MCU_Module" part="WeMos_D1_mini" description="32-bit microcontroller module with WiFi"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDBCBEA</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEF56DB</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEFE800</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>2.3inch7SegmentDisplay</value>
+      <footprint>WemosClock:2.3_in_7_seg_display</footprint>
+      <libsource lib="WemosClock" part="2.3inch7SegmentDisplay" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB87A1C</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>7805</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFC85CB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>470 μF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DFCA1F0</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>WemosClock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E05C939</tstamp>
+    </comp>
+    <comp ref="PS1">
+      <value>HLK-5M12</value>
+      <footprint>WemosClock:HLK-5M12</footprint>
+      <datasheet>http://www.hlktech.net/product_detail.php?ProId=54</datasheet>
+      <libsource lib="WemosClock" part="HLK-5M12" description="Compact AC/DC board mount power module 3W 5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E46B80D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_CBE">
+      <description>NPN transistor, collector/base/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_CBE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_CBE">
+      <description>PNP transistor, collector/base/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_CBE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="WeMos_D1_mini">
+      <description>32-bit microcontroller module with WiFi</description>
+      <docs>https://wiki.wemos.cc/products:d1:d1_mini#documentation</docs>
+      <footprints>
+        <fp>WEMOS*D1*mini*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WeMos_D1_mini</field>
+        <field name="Footprint">Module:WEMOS_D1_mini_light</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RST" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="D0" type="BiDi"/>
+        <pin num="4" name="SCK/D5" type="BiDi"/>
+        <pin num="5" name="MISO/D6" type="BiDi"/>
+        <pin num="6" name="MOSI/D7" type="BiDi"/>
+        <pin num="7" name="CS/D8" type="BiDi"/>
+        <pin num="8" name="3V3" type="power_out"/>
+        <pin num="9" name="5V" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="D4" type="BiDi"/>
+        <pin num="12" name="D3" type="BiDi"/>
+        <pin num="13" name="SDA/D2" type="BiDi"/>
+        <pin num="14" name="SCL/D1" type="BiDi"/>
+        <pin num="15" name="RX" type="input"/>
+        <pin num="16" name="TX" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="WemosClock" part="2.3inch7SegmentDisplay">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">2.3inch7SegmentDisplay</field>
+        <field name="Footprint">WemosClock:2.3 inch 7-segment display</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="F" type="input"/>
+        <pin num="3" name="DP" type="input"/>
+        <pin num="4" name="A" type="input"/>
+        <pin num="5" name="B" type="input"/>
+        <pin num="7" name="C" type="input"/>
+        <pin num="8" name="D" type="input"/>
+        <pin num="9" name="E" type="input"/>
+        <pin num="10" name="Anode" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="WemosClock" part="HLK-5M12">
+      <aliases>
+        <alias>HLK-PM03</alias>
+        <alias>HLK-PM12</alias>
+        <alias>HLK-PM24</alias>
+      </aliases>
+      <description>Compact AC/DC board mount power module 3W 5V</description>
+      <docs>http://www.hlktech.net/product_detail.php?ProId=54</docs>
+      <footprints>
+        <fp>Converter*ACDC*HiLink*HLK?PM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">HLK-5M12</field>
+        <field name="Footprint">WemosClock:HLK-5M12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC/L" type="power_in"/>
+        <pin num="2" name="AC/N" type="power_in"/>
+        <pin num="3" name="-Vout" type="power_out"/>
+        <pin num="4" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>/usr/share/kicad/library/MCU_Module.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="WemosClock">
+      <uri>/home/ajith/WemosClock/WemosClock.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="Q10" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="PS1" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="U0" pin="10"/>
+      <node ref="Q11" pin="3"/>
+      <node ref="Q9" pin="3"/>
+    </net>
+    <net code="2" name="Net-(U0-Pad1)">
+      <node ref="U0" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="U1" pin="10"/>
+      <node ref="D1" pin="2"/>
+      <node ref="Q12" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="U0" pin="16"/>
+    </net>
+    <net code="6" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="U0" pin="11"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="U0" pin="5"/>
+    </net>
+    <net code="8" name="Net-(R23-Pad1)">
+      <node ref="U0" pin="14"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1"/>
+      <node ref="U0" pin="6"/>
+    </net>
+    <net code="10" name="Net-(U0-Pad2)">
+      <node ref="U0" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="U0" pin="15"/>
+    </net>
+    <net code="12" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1"/>
+      <node ref="U0" pin="13"/>
+    </net>
+    <net code="13" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="14" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="15" name="Net-(Q4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="16" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="17" name="Net-(Q3-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="18" name="Net-(Q4-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="19" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="20" name="Net-(Q5-Pad2)">
+      <node ref="R24" pin="2"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="21" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="U0" pin="7"/>
+    </net>
+    <net code="22" name="Net-(R25-Pad1)">
+      <node ref="U0" pin="12"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J1-Pad1)">
+      <node ref="PS1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="PS1" pin="1"/>
+    </net>
+    <net code="25" name="+5V">
+      <node ref="C1" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U0" pin="9"/>
+    </net>
+    <net code="26" name="+12V">
+      <node ref="Q12" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="Q15" pin="3"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q13" pin="3"/>
+      <node ref="PS1" pin="4"/>
+    </net>
+    <net code="27" name="Net-(R21-Pad1)">
+      <node ref="U0" pin="4"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="28" name="Net-(R27-Pad1)">
+      <node ref="R28" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="U0" pin="8"/>
+    </net>
+    <net code="29" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U0" pin="3"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="35" name="Net-(Q10-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="Q10" pin="2"/>
+    </net>
+    <net code="36" name="Net-(Q14-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="Q14" pin="2"/>
+    </net>
+    <net code="37" name="Net-(Q10-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="Q10" pin="1"/>
+    </net>
+    <net code="38" name="Net-(Q14-Pad1)">
+      <node ref="Q14" pin="1"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="39" name="Net-(Q13-Pad1)">
+      <node ref="Q13" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="40" name="Net-(Q9-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="Q9" pin="1"/>
+    </net>
+    <net code="41" name="Net-(Q9-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="Q9" pin="2"/>
+    </net>
+    <net code="42" name="Net-(Q13-Pad2)">
+      <node ref="Q13" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="43" name="Net-(Q11-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="Q11" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="44" name="Net-(Q11-Pad2)">
+      <node ref="Q11" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="45" name="Net-(Q15-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="Q15" pin="2"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="48" name="Net-(Q15-Pad1)">
+      <node ref="Q15" pin="1"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="49" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="50" name="Net-(R7-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="51" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="52" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="53" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="54" name="Net-(Q8-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="55" name="Net-(Q8-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="Q8" pin="2"/>
+    </net>
+    <net code="56" name="Net-(Q12-Pad2)">
+      <node ref="Q12" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="57" name="Net-(R3-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="58" name="Net-(R4-Pad2)">
+      <node ref="U4" pin="8"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="59" name="Net-(R2-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="60" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="61" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="62" name="Net-(Q7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="63" name="Net-(Q7-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="Q7" pin="2"/>
+    </net>
+    <net code="64" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="65" name="Net-(Q2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="66" name="Net-(Q2-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+  </nets>
+</export>
