@@ -13,7 +13,8 @@ This clock is based on the Wemos D1 Mini MCU and it keeps accurate time using NT
 5. Resistors - 2k2       - 21 Nos
 6. Resistors - 220 Ohm   -  7 Nos
 7. 12V DC 5W Power supply module HLK-5M12 - 1 No
-8. PCB fabricated to the specifications [here](KiCAD/WemosClock.kicad_pcb)
+8. 5V Regulator IC 7805 - 1 No
+9. PCB fabricated to the specifications [here](KiCAD/WemosClock.kicad_pcb)
 
 ### PCB
 ![PCB](Pictures/02_WemosClock-PCB.png)
